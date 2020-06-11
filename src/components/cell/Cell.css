@@ -1,0 +1,16 @@
+.cell {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.cell.match {
+  animation: matchAnimation 2s 1;
+  -webkit-animation: matchAnimation 2s 1;
+}
+
+.cell.noMatch {
+  animation: noMatchAnimation 2s 1;
+  -webkit-animation: noMatchAnimation 2s 1;
+}
